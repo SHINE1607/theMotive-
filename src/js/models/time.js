@@ -16,13 +16,13 @@ export default class Time{
 
     getOldTime(){
         
-        // this.oldTime.year = prompt('Enter the year of birth');
-        // this.oldTime.month = prompt('Enter the month of birth');
-        // this.oldTime.day = prompt('Enter the day of birth');
+        this.oldTime.year = prompt('Enter the year of birth');
+        this.oldTime.month = prompt('Enter the month of birth');
+        this.oldTime.day = prompt('Enter the day of birth');
         //test
-        this.oldTime.year = 1997;
-        this.oldTime.month = 7;
-        this.oldTime.day = 16;
+        // this.oldTime.year = 1997;
+        // this.oldTime.month = 7;
+        // this.oldTime.day = 16;
 }
 
     getNewTime(){
